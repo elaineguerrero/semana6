@@ -1,0 +1,113 @@
+
+body{
+         color:#7d5413;
+         background-color: #f9f8e4;
+         background-position: center;
+         font-size: 100%;
+       }
+      .wrapper {
+          width: 90%;
+          margin: 0 auto ;
+       }
+
+      header {
+          background-color: #bfa66d;
+          height: auto;
+          color: #543b04;
+          font-weight: bold;
+
+      }
+
+      h1, h2{
+        font-family: Gloria Hallelujah, cursive;
+        font-size: 2.25em;
+      }
+      h1{ 
+      text-align: left;
+      padding: 2px;
+    }
+
+      nav {
+        text-align: right;
+        display: inline;
+        list-style-type: none;
+
+      }
+
+      nav ul li {
+          display: inline;
+          font-size: 1.8em;
+          text-align: center;
+          padding: 14px 16px;
+          color: #543b04;
+          font-family: 'Amatic SC', cursive;
+      }
+
+      section, footer {
+        font-family: 'BenchNine', sans-serif;
+      }
+
+      aside{ 
+        width: auto;
+        float: left;
+        padding:50px 0px 0px 20px;
+        font-size: 40px;
+        line-height: 3.5;
+        color: #543b04;
+        font-family: 'Amatic SC', cursive;
+        text-align:center;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #bfa66d
+      }
+      a:link{
+        color:#543b04;
+        text-decoration: none;
+      }
+      a:hover{
+        background-color: #d1c278;
+        text-decoration: none;
+        
+       }
+        section {
+        font-size: 1.5em; 
+        margin: auto;
+        padding: 5% 0;
+        
+      }
+
+     .column{
+          margin-left: 220px;
+          line-height: 1.5;
+          height: auto;
+          width: auto;
+          padding: 40px;
+      }
+      .row:after{
+        content: "";
+        display: table;
+        clear: both;
+        height: auto;
+        width: auto;
+
+      }
+      
+      article h2{ 
+        font-size: 35px;
+        color: #baa006
+      }
+
+     footer {
+        font-family: medium;
+        background-color: #bfa66d;
+        color: white;
+        padding: 3px 3px 3px 3px;
+      }
+      @media only screen and (max-width: 600px) 
+    
+}
+    
